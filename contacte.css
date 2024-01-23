@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(69, 69, 188);
+    height: 70px;
+}
+
+.portfoliotext{
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left : 2%;
+    padding-top: 2%;
+}
+
+*{
+    margin-top: 0;
+}
+
+
+.barsection{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap; /* Empêche le retour à la ligne automatique */
+    margin-left: 70%;
+    margin-right: 50px;
+    margin-top: -3%;
+    color: white;
+    font-size: 17px;
+}
+
+.bar{
+    color: white;
+}
+
+.bar:hover{
+    background-color: rgb(70, 70, 125);
+}
+
+
+.contacte{
+    margin-top: 20px;
+    font-size: 50px;
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+}
+
+body{
+   background-color: black;
+}
+
+.telephone{
+    margin-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    margin-right: 60%;
+    color: white;
+    background-color: black;
+}
+
+.maxime{
+    justify-content: center;
+    color: black;
+    text-align: center;
+    margin-top: -80px;
+    
+}
+
+body{
+background-color: white;
+}
