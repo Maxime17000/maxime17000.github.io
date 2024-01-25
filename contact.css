@@ -74,3 +74,25 @@ body{
 body{
 background-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .barsection{
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacte{
+        font-size: 35px;
+    }
+    
+
+    .maxime{
+        display: none;
+    }
+
+    .telephone{
+        width: 80%;
+        font-size: 18px;
+    }
+}
