@@ -44,7 +44,6 @@ body {
     background-image: url(360_F_677829211_utyjMgoaSIc7mPWjMqrANnWkJiDW2meR.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .block {
@@ -82,5 +81,38 @@ border: 1px solid rgba(255, 255, 255, 0.15);}
     margin-right: 90px;
     margin-left: 32%;
     font-size: 20px;
+}
 
+
+
+@media only screen and (max-width: 600px) {
+    .barsection {
+       
+        align-items: center; /* Centrer les éléments */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .block{
+    
+        margin-left: 20px;
+        height: 600px;
+        width:  350px;
+    }
+
+
+
+    .photoprofil {
+        margin-left: 35%;
+        margin-right: 5%;
+        width: 30%;
+        height: 22%;
+    }
+ 
+    .textindex{
+        padding-top: 10px;
+        /* margin-left: 50px; */
+        margin: auto;
+        /* margin-bottom: 30px; */
+    }
 }
