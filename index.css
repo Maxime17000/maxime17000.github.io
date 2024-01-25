@@ -72,6 +72,8 @@ border: 1px solid rgba(255, 255, 255, 0.15);}
     border-color: black;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+    filter: brightness(125%);
+    filter: contrast(105%);
 }
 
 
