@@ -71,6 +71,12 @@ header{
     color: white;
 }
 
+
+.titrestage{
+    font-size: 20px; 
+    margin-top: 8px;
+}
+
 @media only screen and (max-width : 600px) {
 
        .barsection{
@@ -82,5 +88,46 @@ header{
     .lignegrise{
         width: 95%;
     }
+
+}
+
+@media only screen and (min-width: 1900px) {
+    /* Vos règles CSS pour les écrans jusqu'à 24 pouces */
+    .barsection {
+        display: flex;
+        justify-content: space-between;  
+        margin-top: -5%;
+        font-size: 30px;
+    }
+
+
+    .portfoliotext{
+        padding-top: 11px;
+        font-size: 50px;
+    }
+
+    .stagecollege{
+        font-size: 40px;
+    }
+
+    .stagetext{
+        font-size: 50px;
+        
+    }
+
+    .lignegrise{
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .titrestage{
+        font-size: 50px;
+    }
+
+    .button{
+        padding: 10px;
+        font-size: 50px;
+    }
+
 
 }

@@ -96,3 +96,32 @@ background-color: white;
         font-size: 18px;
     }
 }
+
+
+
+@media only screen and (min-width: 1900px) {
+    /* Vos règles CSS pour les écrans jusqu'à 24 pouces */
+    .barsection {
+        display: flex;
+        justify-content: space-between;  
+        margin-top: -5%;
+        font-size: 30px;
+    }
+
+
+    .portfoliotext{
+        padding-top: 11px;
+        font-size: 50px;
+    }
+
+   .maxime{
+    font-size: 60px;
+   }
+
+
+.telephone{
+    width: 70%;
+    font-size: 70px;
+}
+
+}
